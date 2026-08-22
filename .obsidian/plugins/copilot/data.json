@@ -1,0 +1,1610 @@
+{
+  "userId": "f388c411-4e90-44c3-93e1-57e18f531bb2",
+  "isPaidUser": false,
+  "isPlusUser": false,
+  "entitlementToken": "",
+  "entitlementExpiresAt": 0,
+  "plusLicenseKey": "",
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "azureOpenAIApiKey": "",
+  "azureOpenAIApiInstanceName": "",
+  "azureOpenAIApiDeploymentName": "",
+  "azureOpenAIApiVersion": "",
+  "azureOpenAIApiEmbeddingDeploymentName": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "xaiApiKey": "",
+  "mistralApiKey": "",
+  "deepseekApiKey": "",
+  "siliconflowApiKey": "",
+  "defaultChainType": "llm_chain",
+  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
+  "embeddingModelKey": "openai/text-embedding-3-small|openrouterai",
+  "temperature": 0.1,
+  "contextTurns": 15,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "",
+  "openAIEmbeddingProxyBaseUrl": "",
+  "stream": true,
+  "copilotFolder": "copilot",
+  "copilotRootHistory": [
+    "copilot"
+  ],
+  "upgradedToV8FromLegacy": false,
+  "defaultSaveFolder": "copilot/copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": true,
+  "autoAddActiveContentToContext": true,
+  "defaultOpenArea": "view",
+  "defaultSendShortcut": "enter",
+  "customPromptsFolder": "copilot/copilot-custom-prompts",
+  "indexVaultToVectorStore": "ON MODE SWITCH",
+  "qaExclusions": "copilot",
+  "qaInclusions": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "enableIndexSync": true,
+  "debug": false,
+  "maxSourceChunks": 30,
+  "enableInlineCitations": true,
+  "groqApiKey": "",
+  "activeModels": [
+    {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "plusExclusive": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-2.5-flash",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-5.5",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-5.4-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-3.5-flash",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-sonnet-4-6",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-3.5-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-3.1-flash-lite",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-2.5-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-3.1-pro-preview",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-2.5-pro",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "openai/gpt-5.5",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "openai/gpt-5.4-mini",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "grok-4.3",
+      "provider": "xai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "x-ai/grok-4.3",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4.1",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4.1-mini",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-opus-4-7",
+      "provider": "anthropic",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-haiku-4-5",
+      "provider": "anthropic",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-3.1-pro-preview",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-2.5-pro",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-chat",
+      "provider": "deepseek",
+      "enabled": false,
+      "isBuiltIn": true,
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-reasoner",
+      "provider": "deepseek",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-R1",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "capabilities": [
+        "reasoning"
+      ],
+      "apiKey": ""
+    }
+  ],
+  "activeEmbeddingModels": [
+    {
+      "name": "copilot-plus-small",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "apiKey": ""
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "believerExclusive": true,
+      "dimensions": 1024,
+      "apiKey": ""
+    },
+    {
+      "name": "copilot-plus-multilingual",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "dimensions": 512,
+      "apiKey": ""
+    },
+    {
+      "name": "openai/text-embedding-3-small",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "apiKey": ""
+    },
+    {
+      "name": "text-embedding-3-small",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-embedding-001",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-embedding-2-preview",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "apiKey": ""
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-0.6B",
+      "provider": "siliconflow",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "apiKey": ""
+    },
+    {
+      "name": "text-embedding-3-large",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "apiKey": ""
+    },
+    {
+      "name": "embed-multilingual-light-v3.0",
+      "provider": "cohereai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "apiKey": ""
+    },
+    {
+      "name": "text-embedding-004",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "apiKey": ""
+    },
+    {
+      "name": "azure-openai",
+      "provider": "azure openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "apiKey": ""
+    }
+  ],
+  "embeddingRequestsPerMin": 60,
+  "embeddingBatchSize": 16,
+  "disableIndexOnMobile": true,
+  "numPartitions": 1,
+  "lexicalSearchRamLimit": 100,
+  "promptUsageTimestamps": {},
+  "promptSortStrategy": "timestamp",
+  "chatHistorySortStrategy": "recent",
+  "projectsFolder": "copilot/projects",
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "inlineEditCommands": [],
+  "projectList": [],
+  "lastDismissedVersion": null,
+  "passMarkdownImages": true,
+  "enableAutonomousAgent": true,
+  "enableCustomPromptTemplating": true,
+  "enableSemanticSearchV3": false,
+  "enableSelfHostMode": false,
+  "enableMiyo": false,
+  "enableMiyoSearchSkill": false,
+  "miyoSearchAll": false,
+  "miyoServerUrl": "",
+  "miyoSyncedExclusions": "",
+  "selfHostSearchProvider": "firecrawl",
+  "firecrawlApiKey": "",
+  "perplexityApiKey": "",
+  "supadataApiKey": "",
+  "docProcessorBackend": "plus",
+  "enableLexicalBoosts": true,
+  "suggestedDefaultCommands": false,
+  "autonomousAgentMaxIterations": 4,
+  "autonomousAgentEnabledToolIds": [
+    "localSearch",
+    "readNote",
+    "webSearch",
+    "pomodoro",
+    "youtubeTranscription",
+    "writeFile",
+    "editFile",
+    "updateMemory"
+  ],
+  "reasoningEffort": "low",
+  "verbosity": "medium",
+  "memoryFolderName": "copilot/memory",
+  "enableRecentConversations": true,
+  "maxRecentConversations": 30,
+  "enableSavedMemory": true,
+  "quickCommandIncludeNoteContext": true,
+  "autoIncludeTextSelection": false,
+  "autoAddSelectionToContext": false,
+  "autoAcceptEdits": false,
+  "diffViewMode": "split",
+  "userSystemPromptsFolder": "copilot/system-prompts",
+  "defaultSystemPromptTitle": "",
+  "autoCompactThreshold": 128000,
+  "convertedDocOutputFolder": "",
+  "agentMode": {
+    "byok": {},
+    "activeBackend": "opencode",
+    "backends": {},
+    "debugFullFrames": true,
+    "welcomeDismissed": false,
+    "skills": {
+      "folder": "copilot/skills"
+    },
+    "deviceProfiles": {
+      "b77a9b63-e065-44e4-8914-007285c146d3": {
+        "opencode": {
+          "binaryPath": "/home/franco/.obsidian-copilot/opencode/1.18.16/bin/opencode",
+          "binaryVersion": "1.18.16",
+          "binarySource": "managed",
+          "probeSessionId": "ses_fd7d9dcb1ffe28GOiVC0h7BPsW"
+        }
+      }
+    }
+  },
+  "providers": {
+    "618b6c2f-fe45-46af-90a6-7216831ccef9": {
+      "providerType": "openai-compatible",
+      "displayName": "opencode",
+      "origin": {
+        "kind": "agent",
+        "agentType": "opencode"
+      },
+      "requiresApiKey": false,
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "addedAt": 1787379983224,
+      "apiKeyKeychainId": null
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/antigravity-claude-opus-4-6-thinking",
+        "displayName": "Google/Claude Opus 4.6 Thinking (Antigravity)"
+      },
+      "configuredModelId": "b55ba634-dccf-42b7-ac80-71d6a86e3261",
+      "configuredAt": 1787379984231
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/antigravity-claude-sonnet-4-6",
+        "displayName": "Google/Claude Sonnet 4.6 (Antigravity)"
+      },
+      "configuredModelId": "5583557f-2867-4830-b146-bb807e2ea714",
+      "configuredAt": 1787379984237
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/deep-research-max-preview-04-2026",
+        "displayName": "Google/Deep Research Max Preview (Apr-21-2026)"
+      },
+      "configuredModelId": "c653e4f7-21c3-4e65-9ad0-76a2ec7f6cfc",
+      "configuredAt": 1787379984245
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/deep-research-preview-04-2026",
+        "displayName": "Google/Deep Research Preview (Apr-21-2026)"
+      },
+      "configuredModelId": "fc8a83b1-7558-496d-8e71-9d6c30d64734",
+      "configuredAt": 1787379984252
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-2.5-computer-use-preview-10-2025",
+        "displayName": "Google/Gemini 2.5 Computer Use Preview 10-2025",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 128000,
+          "output": 64000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-10-07",
+        "cost": {
+          "input": 1.25,
+          "output": 10
+        }
+      },
+      "configuredModelId": "d2dc445f-aeff-47ff-8b1d-ad74b6316a8b",
+      "configuredAt": 1787379984253
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-2.5-flash",
+        "displayName": "Google/Gemini 2.5 Flash (Gemini CLI)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-06-17"
+      },
+      "configuredModelId": "473e64a7-56f2-4329-91ff-d3f9708fbdd2",
+      "configuredAt": 1787379984254
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-2.5-flash-preview-tts",
+        "displayName": "Google/Gemini 2.5 Flash Preview TTS"
+      },
+      "configuredModelId": "47100854-63ca-4c46-a066-a6ebee019ab7",
+      "configuredAt": 1787379984254
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-2.5-flash-lite",
+        "displayName": "Google/Gemini 2.5 Flash-Lite",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-06-17"
+      },
+      "configuredModelId": "ade48a26-a16b-427d-9a45-82d7fe70a8cb",
+      "configuredAt": 1787379984255
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-2.5-pro",
+        "displayName": "Google/Gemini 2.5 Pro (Gemini CLI)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-06-17"
+      },
+      "configuredModelId": "611f96ef-8238-4156-9695-f84c241698da",
+      "configuredAt": 1787379984256
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-2.5-pro-preview-tts",
+        "displayName": "Google/Gemini 2.5 Pro Preview TTS"
+      },
+      "configuredModelId": "39662fa9-80e6-401d-837b-3b32fcb41ee7",
+      "configuredAt": 1787379984256
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/antigravity-gemini-3-flash",
+        "displayName": "Google/Gemini 3 Flash (Antigravity)"
+      },
+      "configuredModelId": "ead697e8-f6b7-4692-9cc1-60b46bcba330",
+      "configuredAt": 1787379984257
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3-flash-preview",
+        "displayName": "Google/Gemini 3 Flash Preview (Gemini CLI)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-12-17"
+      },
+      "configuredModelId": "9dc5478b-dcd1-4004-8bb8-a5fd1cae307b",
+      "configuredAt": 1787379984258
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/antigravity-gemini-3-pro",
+        "displayName": "Google/Gemini 3 Pro (Antigravity)"
+      },
+      "configuredModelId": "8045067a-26d3-438d-9eca-b4209e6422a4",
+      "configuredAt": 1787379984258
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3-pro-preview",
+        "displayName": "Google/Gemini 3 Pro Preview (Gemini CLI)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-11-18"
+      },
+      "configuredModelId": "b14d5122-4e10-4d8a-ac3e-e9897313f17f",
+      "configuredAt": 1787379984259
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-flash-lite",
+        "displayName": "Google/Gemini 3.1 Flash Lite",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-05-07",
+        "cost": {
+          "input": 0.25,
+          "output": 1.5,
+          "cacheRead": 0.025,
+          "cacheWrite": 0.083333
+        }
+      },
+      "configuredModelId": "1389f869-4610-43ab-a909-10bfedd88038",
+      "configuredAt": 1787379984259
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-flash-live-preview",
+        "displayName": "Google/Gemini 3.1 Flash Live Preview"
+      },
+      "configuredModelId": "0d5e43fd-4abe-4aae-9e70-5be390ec9dc5",
+      "configuredAt": 1787379984260
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-flash-tts-preview",
+        "displayName": "Google/Gemini 3.1 Flash TTS Preview"
+      },
+      "configuredModelId": "8ec797d1-0249-4f80-9fdd-a7fa4670cef9",
+      "configuredAt": 1787379984261
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/antigravity-gemini-3.1-pro",
+        "displayName": "Google/Gemini 3.1 Pro (Antigravity)"
+      },
+      "configuredModelId": "0d03ffe7-c254-4462-bf82-2ed57b20f1f3",
+      "configuredAt": 1787379984261
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-pro-preview",
+        "displayName": "Google/Gemini 3.1 Pro Preview (Gemini CLI)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-02-19",
+        "cost": {
+          "input": 2,
+          "output": 12,
+          "cacheRead": 0.2,
+          "cacheWrite": 0.375
+        }
+      },
+      "configuredModelId": "fa9a83d7-d1e0-470e-9728-2c3ba5b74ee2",
+      "configuredAt": 1787379984262
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-pro-preview-customtools",
+        "displayName": "Google/Gemini 3.1 Pro Preview Custom Tools (Gemini CLI)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-02-19",
+        "cost": {
+          "input": 2,
+          "output": 12,
+          "cacheRead": 0.2,
+          "cacheWrite": 0.375
+        }
+      },
+      "configuredModelId": "2f88a254-8664-49dc-baf8-9875926825e1",
+      "configuredAt": 1787379984263
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.5-flash",
+        "displayName": "Google/Gemini 3.5 Flash",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-05-19",
+        "cost": {
+          "input": 1.5,
+          "output": 9,
+          "cacheRead": 0.15,
+          "cacheWrite": 0.083333
+        }
+      },
+      "configuredModelId": "0990402e-00ef-4da6-ae17-cfe879d5bec8",
+      "configuredAt": 1787379984263
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.5-flash-lite",
+        "displayName": "Google/Gemini 3.5 Flash Lite",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-21",
+        "cost": {
+          "input": 0.3,
+          "output": 2.5,
+          "cacheRead": 0.03,
+          "cacheWrite": 0.083333
+        }
+      },
+      "configuredModelId": "55527bea-8d21-4700-b9fe-2f4ba328f81a",
+      "configuredAt": 1787379984264
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.5-live-translate-preview",
+        "displayName": "Google/Gemini 3.5 Live Translate Preview"
+      },
+      "configuredModelId": "94bae935-1701-4596-ae15-f8ea61e40635",
+      "configuredAt": 1787379984265
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.6-flash",
+        "displayName": "Google/Gemini 3.6 Flash",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-21",
+        "cost": {
+          "input": 0.75,
+          "output": 3.75,
+          "cacheRead": 0.075,
+          "cacheWrite": 0.041667
+        }
+      },
+      "configuredModelId": "cba370dc-2d7b-4517-a934-c99ac8459372",
+      "configuredAt": 1787379984265
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.7-flash",
+        "displayName": "Google/Gemini 3.7 Flash",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-08-13",
+        "cost": {
+          "input": 1.5,
+          "output": 7.5,
+          "cacheRead": 0.15,
+          "cacheWrite": 0.083333
+        }
+      },
+      "configuredModelId": "e0526bea-e011-4978-8b11-19f4989fdbd7",
+      "configuredAt": 1787379984266
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-embedding-001",
+        "displayName": "Google/Gemini Embedding 001",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 2048,
+          "output": 4096
+        },
+        "reasoning": false,
+        "toolCall": false,
+        "isEmbedding": true,
+        "releaseDate": "2025-05-20",
+        "cost": {
+          "input": 0.15,
+          "output": 0
+        }
+      },
+      "configuredModelId": "19d5b892-17b1-4be2-92a3-b54cd62a1f32",
+      "configuredAt": 1787379984266
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-embedding-2",
+        "displayName": "Google/Gemini Embedding 2",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 0,
+          "output": 0
+        },
+        "reasoning": false,
+        "toolCall": false,
+        "isEmbedding": true,
+        "releaseDate": "2026-04-22"
+      },
+      "configuredModelId": "eaabef5f-1ef4-499a-8cf3-e2bb6c1609ce",
+      "configuredAt": 1787379984267
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-flash-latest",
+        "displayName": "Google/Gemini Flash Latest",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-08-13",
+        "cost": {
+          "input": 1.5,
+          "output": 7.5,
+          "cacheRead": 0.15,
+          "cacheWrite": 0.083333
+        }
+      },
+      "configuredModelId": "9215898d-e3ec-49ec-b082-f82e8cfc0e51",
+      "configuredAt": 1787379984267
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-flash-lite-latest",
+        "displayName": "Google/Gemini Flash-Lite Latest",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-21",
+        "cost": {
+          "input": 0.25,
+          "output": 1.5,
+          "cacheRead": 0.025
+        }
+      },
+      "configuredModelId": "c3cfda3f-bd35-4c79-891f-971be4dc1964",
+      "configuredAt": 1787379984268
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-omni-flash-preview",
+        "displayName": "Google/Gemini Omni Flash Preview",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 57920
+        },
+        "reasoning": true,
+        "toolCall": false,
+        "releaseDate": "2026-06-30",
+        "cost": {
+          "input": 1.5,
+          "output": 9
+        }
+      },
+      "configuredModelId": "28f840fd-2615-4fe2-82cb-2175a97784c5",
+      "configuredAt": 1787379984269
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-robotics-er-1.6-preview",
+        "displayName": "Google/Gemini Robotics-ER 1.6 Preview"
+      },
+      "configuredModelId": "e9573f38-bb6a-4343-8102-fbbee1b561d1",
+      "configuredAt": 1787379984269
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemma-4-26b-a4b-it",
+        "displayName": "Google/Gemma 4 26B A4B IT",
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 262144,
+          "output": 16384
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-02",
+        "cost": {
+          "input": 0.05,
+          "output": 0.25
+        }
+      },
+      "configuredModelId": "1ef7bb43-d257-4f40-9817-5ad8167136a0",
+      "configuredAt": 1787379984270
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemma-4-31b-it",
+        "displayName": "Google/Gemma 4 31B IT",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 262144,
+          "output": 131072
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-02",
+        "cost": {
+          "input": 0.14,
+          "output": 0.4
+        }
+      },
+      "configuredModelId": "9b7c21c6-116a-487d-aabf-f9ae3340f29d",
+      "configuredAt": 1787379984270
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/lyria-3-clip-preview",
+        "displayName": "Google/Lyria 3 Clip Preview",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": false,
+        "toolCall": false,
+        "releaseDate": "2026-03-25",
+        "cost": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "configuredModelId": "c1a3dbed-7ff0-4d2e-96f6-3a934fd5e107",
+      "configuredAt": 1787379984271
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/lyria-3-pro-preview",
+        "displayName": "Google/Lyria 3 Pro Preview",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": false,
+        "toolCall": false,
+        "releaseDate": "2026-03-25",
+        "cost": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "configuredModelId": "94b64393-7da1-4a4b-85f2-864f859225d3",
+      "configuredAt": 1787379984272
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-2.5-flash-image",
+        "displayName": "Google/Nano Banana",
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "limits": {
+          "context": 32768,
+          "output": 32768
+        },
+        "reasoning": true,
+        "toolCall": false,
+        "releaseDate": "2025-08-26",
+        "cost": {
+          "input": 0.3,
+          "output": 2.5,
+          "cacheRead": 0.03,
+          "cacheWrite": 0.083333
+        }
+      },
+      "configuredModelId": "15395952-b63f-4b9f-82b0-2c7ab26f1067",
+      "configuredAt": 1787379984272
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-flash-image",
+        "displayName": "Google/Nano Banana 2",
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "limits": {
+          "context": 65536,
+          "output": 32768
+        },
+        "reasoning": true,
+        "toolCall": false,
+        "releaseDate": "2026-05-28",
+        "cost": {
+          "input": 0.5,
+          "output": 3
+        }
+      },
+      "configuredModelId": "a58c1509-fac2-48fc-9979-82a9bf418925",
+      "configuredAt": 1787379984273
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-flash-image-preview",
+        "displayName": "Google/Nano Banana 2",
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "limits": {
+          "context": 65536,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": false,
+        "releaseDate": "2026-02-26",
+        "cost": {
+          "input": 0.5,
+          "output": 3
+        }
+      },
+      "configuredModelId": "03a1a11c-7b92-467e-a012-170f3b1088ea",
+      "configuredAt": 1787379984274
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3.1-flash-lite-image",
+        "displayName": "Google/Nano Banana 2 Lite",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "limits": {
+          "context": 65536,
+          "output": 4096
+        },
+        "reasoning": true,
+        "toolCall": false,
+        "releaseDate": "2026-06-30",
+        "cost": {
+          "input": 0.25,
+          "output": 1.5
+        }
+      },
+      "configuredModelId": "7ea0688a-e72b-4dd6-bd83-158c8199d12a",
+      "configuredAt": 1787379984274
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3-pro-image",
+        "displayName": "Google/Nano Banana Pro",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "limits": {
+          "context": 65536,
+          "output": 32768
+        },
+        "reasoning": true,
+        "toolCall": false,
+        "releaseDate": "2026-05-28",
+        "cost": {
+          "input": 2,
+          "output": 12,
+          "cacheRead": 0.2,
+          "cacheWrite": 0.375
+        }
+      },
+      "configuredModelId": "926707e4-ffb2-46fe-b3c6-e84bc92723f5",
+      "configuredAt": 1787379984275
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/gemini-3-pro-image-preview",
+        "displayName": "Google/Nano Banana Pro",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "limits": {
+          "context": 65536,
+          "output": 32768
+        },
+        "reasoning": true,
+        "toolCall": false,
+        "releaseDate": "2025-11-20",
+        "cost": {
+          "input": 2,
+          "output": 12,
+          "cacheRead": 0.2,
+          "cacheWrite": 0.375
+        }
+      },
+      "configuredModelId": "cdbb1482-fc48-46a6-bee3-4ab7ec10daad",
+      "configuredAt": 1787379984276
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/veo-3.1-generate-preview",
+        "displayName": "Google/Veo 3.1"
+      },
+      "configuredModelId": "0d14fed4-14c2-438e-bbc8-e34cbc188ccc",
+      "configuredAt": 1787379984276
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/veo-3.1-fast-generate-preview",
+        "displayName": "Google/Veo 3.1 fast"
+      },
+      "configuredModelId": "d87c1a8e-7f42-4fc9-9d32-a738a13dc2e6",
+      "configuredAt": 1787379984280
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "google/veo-3.1-lite-generate-preview",
+        "displayName": "Google/Veo 3.1 lite"
+      },
+      "configuredModelId": "54400ee8-4365-4934-8b86-e183ce7655d2",
+      "configuredAt": 1787379984281
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "opencode/big-pickle",
+        "displayName": "OpenCode Zen/Big Pickle"
+      },
+      "configuredModelId": "59de023c-b9b9-4788-b70f-54a998710fef",
+      "configuredAt": 1787379984282
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "opencode/hy3-free",
+        "displayName": "OpenCode Zen/Hy3 Free"
+      },
+      "configuredModelId": "964a397c-3d7f-477c-919b-0a94eae13ee9",
+      "configuredAt": 1787379984282
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "opencode/mimo-v2.5-free",
+        "displayName": "OpenCode Zen/MiMo V2.5 Free"
+      },
+      "configuredModelId": "f7e4f344-ab77-4e89-b05c-199c1139b319",
+      "configuredAt": 1787379984282
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "opencode/muse-spark-1.2-contributor-free",
+        "displayName": "OpenCode Zen/Muse Spark 1.2 Free"
+      },
+      "configuredModelId": "57044144-0acc-4a59-92f9-acca1cf12fba",
+      "configuredAt": 1787379984282
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "opencode/nemotron-3-ultra-free",
+        "displayName": "OpenCode Zen/Nemotron 3 Ultra Free"
+      },
+      "configuredModelId": "eae6e27e-43e4-41be-9a12-444763cea766",
+      "configuredAt": 1787379984283
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "opencode/nemotron-3.5-lightning-free",
+        "displayName": "OpenCode Zen/Nemotron 3.5 Lightning Free"
+      },
+      "configuredModelId": "45f09788-488b-486a-9a27-70f34f8797ee",
+      "configuredAt": 1787379984283
+    },
+    {
+      "providerId": "618b6c2f-fe45-46af-90a6-7216831ccef9",
+      "info": {
+        "id": "opencode/x-preview-f-free",
+        "displayName": "OpenCode Zen/Ox Alpha Free (Unlimited)"
+      },
+      "configuredModelId": "c255d009-61bf-487f-8f5a-894743b1b3c7",
+      "configuredAt": 1787379984283
+    }
+  ],
+  "backends": {
+    "opencode": {
+      "enabledModels": [
+        "b55ba634-dccf-42b7-ac80-71d6a86e3261",
+        "5583557f-2867-4830-b146-bb807e2ea714",
+        "c653e4f7-21c3-4e65-9ad0-76a2ec7f6cfc"
+      ]
+    }
+  },
+  "_keychainVaultId": "d355654e",
+  "settingsVersion": 11
+}

@@ -7,7 +7,7 @@
 | 💻 Videcoding    | [Omniroute for api free](https://instagram.com)                                        |         |
 | 💻 Videcoding    | [SQL course](https://instagram.com)                                                    |         |
 | 💻 Videcoding    | [Sitioa web (Websites)](https://instagram.com)                                         |         |
-| 💻 Videcoding    | [Web design Chinese model](https://instagram.com)                                      |         |
+| 💻 Videcoding    | Web design Chinese model](https://instagram.com)                                       |         |
 | 💻 Videcoding    | [Video generator](https://instagram.com)                                               |         |
 | 🤖 AI            | [Create an LLM from scratch with theory of papers](https://instagram.com)              |         |
 | 🤖 AI            | [Statistics for machine learning (best site)](https://instagram.com)                   |         |

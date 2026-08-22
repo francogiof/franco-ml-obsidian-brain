@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787379808280-6qw3mbd0u",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787379808593-yj395bn",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787379808271-s6z7gtt",
+      "timestamp": 1787379808271,
+      "rawDisplayText": "are you there)",
+      "canonicalText": "are you there)",
+      "context": {
+        "linkedContent": {
+          "path": "30_Portfolio_Projects/Resources to create perfect profile.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "1bec951f76888a7705c96a4afefe6ad4dc339c37caf2903ee33ca551700ad57a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787379821640-yo8u4rh",
+      "userTurnOrdinal": 2,
+      "state": "staged",
+      "localMessageId": "msg-1787379821634-c5fsqw9",
+      "timestamp": 1787379821634,
+      "rawDisplayText": "hey",
+      "canonicalText": "hey",
+      "images": [],
+      "contentDigest": "ba8b7026adffa6a3ea7b749c12bfd034db9eb33609c94ee923fc55edc7de0847"
+    }
+  ]
+}

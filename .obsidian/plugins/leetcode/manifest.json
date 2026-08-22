@@ -1,0 +1,10 @@
+{
+  "id": "leetcode",
+  "name": "LeetCode",
+  "version": "1.3.2",
+  "minAppVersion": "1.12.7",
+  "description": "Browse, solve, and note LeetCode problems inside your vault.",
+  "author": "Mo Xu",
+  "authorUrl": "https://github.com/LikeSundayLikeRain",
+  "isDesktopOnly": true
+}
