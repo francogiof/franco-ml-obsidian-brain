@@ -22,8 +22,8 @@
   "uncolorQuick": false,
   "maxBackups": 2,
   "dialogState": {
-    "iconMode": true,
-    "emojiMode": false,
+    "iconMode": false,
+    "emojiMode": true,
     "rulePage": "file"
   },
   "appIcons": {},
@@ -33,6 +33,19 @@
   "tagIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {},
-  "fileRules": [],
+  "fileRules": [
+    {
+      "id": "xXnFS",
+      "name": "Untitled rule",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ],
   "folderRules": []
 }

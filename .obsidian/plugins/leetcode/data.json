@@ -56965,7 +56965,19 @@
       }
     ]
   },
-  "filter": null,
+  "filter": {
+    "match": "all",
+    "rules": [
+      {
+        "field": "premium",
+        "op": "is",
+        "values": [
+          "non-premium"
+        ],
+        "__autoDefault": true
+      }
+    ]
+  },
   "problemDetails": {
     "two-sum": {
       "fetchedAt": 1787381153715,
