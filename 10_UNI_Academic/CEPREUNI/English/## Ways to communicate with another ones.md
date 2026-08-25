@@ -1,20 +1,3 @@
-[
-
-](https://gemini.google.com/notebooks/create)
-
-[
-
-](https://gemini.google.com/notebooks/view)
-
-# Conversation with Gemini
-
-are you there?
-
-Yes, I'm here! How can I help you today?
-
-give a guide about expresions to use for B2 conversations dayli, talking about my life like machine learning engineer and my personal activities like estudent and also my reasearcher side and my goals to become the best programmer in the UNI and participate in international competitions, and algo mentioned my intenstion to dont have chikdres yet, because i wanna have 20 childrens but in 15 years more in the future,  and  thats why i need to talk english and estudy a lot programming skills, create a table of 5 sentences to explain each aspect i told you, consider to put the second column the time tense im talking , maybe the table will have around 40 registers, if its so long, please create the table for  first 20 and the enother ones a second talbe of 20 registers
-
-Here is your comprehensive B2-level conversation guide. It uses natural, upper-intermediate expressions suited for networking, casual chats, and professional conversations.
 
 The guide is divided into two structured tables of 20 sentences each, along with the verb tenses used in each sentence.
 
