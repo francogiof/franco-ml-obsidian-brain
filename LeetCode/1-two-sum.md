@@ -59,6 +59,7 @@ Output: [0,1]
  */
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
+    int* result = malloc (2*
     for(int i= 0 ; i < numsSize ; i++)
         int r =target - *(nums +i) ;
 
