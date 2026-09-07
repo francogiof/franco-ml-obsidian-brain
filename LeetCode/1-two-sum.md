@@ -4,13 +4,15 @@ lc-slug: two-sum
 lc-title: Two Sum
 lc-difficulty: Easy
 lc-url: https://leetcode.com/problems/two-sum/
-lc-status: untouched
+lc-status: accepted
 lc-language: c
 aliases:
   - Two Sum
   - "1"
 tags:
   - lc/easy
+  - lc/array
+  - lc/hash-table
 ---
 # Two Sum
 ## Problem
@@ -59,14 +61,27 @@ Output: [0,1]
  */
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
-    int* result = malloc (2*
-    for(int i= 0 ; i < numsSize ; i++)
-        int r =target - *(nums +i) ;
+    int* result = malloc (2*sizeof(*result));
+    if (result == NULL){
+        *returnSize = 0;
+        return NULL;
+    }
+    for (int i= 0 ; i < numsSize ; i++){
+        for (int j = i + 1; j < numsSize; j++){
+            if (nums[i] + nums[j] == target){
+                result[0] = i;
+                result[1] = j;
+                *returnSize = 2;
+                return result;
+            }
+        }
+    }
+    free(result);
+    *returnSize = 0;
+    return NULL;
+}
 
-        if( r - *(nums +i+1)  == 0 ) 
-}
-}
 ```
 
 ## Notes
-
+Thanks to myself
