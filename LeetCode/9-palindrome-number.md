@@ -4,13 +4,14 @@ lc-slug: palindrome-number
 lc-title: Palindrome Number
 lc-difficulty: Easy
 lc-url: https://leetcode.com/problems/palindrome-number/
-lc-status: untouched
-lc-language: python3
+lc-status: accepted
+lc-language: cpp
 aliases:
   - Palindrome Number
   - "9"
 tags:
   - lc/easy
+  - lc/math
 ---
 # Palindrome Number
 ## Problem
@@ -49,9 +50,22 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ## Code
 
 ```leetcode-solve
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        // Conditionals || (OR), && (AND), is the first filter
+        if (x<0 || (x%10 == 0 && x != 0)) {
+            return false;
+        }
+        // 
+        int reversedHalf = 0;
+        while (x > reversedHalf) {
+            reversedHalf = (reversedHalf * 10) + (x % 10);
+            x /= 10;
+        }
+        return x == reversedHalf || x == reversedHalf / 10;
+    }
+};
 ```
 
 ## Notes
-
